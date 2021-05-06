@@ -56,7 +56,7 @@ const ProjectCards = ({ project }) => {
   };
 
   return (
-    <Card border="success" style={{ width: '40rem' }} className="ProjectCard">
+    <Card border="success" className="ProjectCard">
       {/* <Card.Img variant="top" src={image} /> */}
       <Card.Body>
         <Card.Title>{title}</Card.Title>
