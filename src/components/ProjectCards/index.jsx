@@ -15,7 +15,6 @@ const ProjectCards = ({ project }) => {
   const {
     title,
     content,
-    image,
     github,
     live,
     tags,
@@ -58,7 +57,7 @@ const ProjectCards = ({ project }) => {
 
   return (
     <Card border="success" style={{ width: '40rem' }} className="ProjectCard">
-      <Card.Img variant="top" src={image} />
+      {/* <Card.Img variant="top" src={image} /> */}
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>
@@ -73,9 +72,9 @@ const ProjectCards = ({ project }) => {
         </ul>
         <div className="ProjectCard__buttons_block">
           {github
-          && <a href={github}><Button variant="primary"> Voir le code </Button></a>}
+          && <a href={github} target="_blank" rel="noreferrer"><Button variant="primary"> Voir le code </Button></a>}
           {live
-          && <a href={live}><Button variant="outline-primary"> Voir le site </Button></a>}
+          && <a href={live} target="_blank" rel="noreferrer"><Button variant="outline-primary"> Voir le site </Button></a>}
         </div>
 
       </Card.Body>

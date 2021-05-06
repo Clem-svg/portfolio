@@ -3,7 +3,7 @@ const projectsData = [{
   content: 'Coup de Pousse met en relation les particuliers proposant un bout de jardin et les particuliers recherchant un lieu pour exercer et partager l’amour du jardinage !',
   github: 'https://github.com/Clem-svg/coup-de-pousse',
   live: 'https://coup-de-pousse.herokuapp.com/',
-  image: '../../images/coupdepousse.png',
+  image: 'images/coupdepousse.png',
   tags: ['ruby', 'rails'],
 },
 {
@@ -18,7 +18,7 @@ const projectsData = [{
   title: 'Au Bain-Marie',
   content: 'Au Bain-Marie est un atelier de plats cuisinés qui a été crée en 1989. Il s’agit de plats réalisés traditionnellement dans notre Auberge de Saint-Gervais d’Auvergne, le Castel 1904.',
   live: 'https://au-bain-marie.fr/',
-  image: '../../images/bainmarie.png',
+  image: 'bainmarie.png',
   tags: ['wordpress'],
 },
 {
