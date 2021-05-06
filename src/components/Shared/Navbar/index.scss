@@ -1,0 +1,17 @@
+.NavigationBar {
+
+  height: 10vh;
+  background-color: #f1fff67a;
+
+  #NavLink {
+
+    &:hover {
+      color:var(--primary);
+    }
+  }
+
+}
+
+#brand {
+  color: #5c7567;
+}
