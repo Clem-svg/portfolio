@@ -1,12 +1,13 @@
 import React from 'react';
+import gif from '../../../public/images/orange.gif';
 import './index.scss';
 
 const Contact = () => (
   <div className="Contact page_container">
     <div className="Contact__container">
       <div>
-        <img alt="Clémentine Fouqué" className="static" src="/images/orangePicture.png" height="250px" />
-        <img alt="Clémentine Fouqué" className="active" src="/images/orange.gif" height="250px" />
+        <img alt="Clémentine Fouqué" className="static" src={gif} height="250px" />
+        <img alt="Clémentine Fouqué" className="active" src={gif} height="250px" />
       </div>
       <div className="Contact__details">
         <p id="name">Clémentine Fouqué</p>
