@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="Footer">
     <div>
       <a href="https://github.com/Clem-svg">
-        <img src="/images/github.svg" alt="github clem-svg" />
+        <img src="%PUBLIC_URL%/images/github.svg" alt="github clem-svg" />
       </a>
       <a href="https://www.linkedin.com/in/clementine-fouque/">
         <img src="/images/linkedin.svg" alt="linkedin clementine fouque" />
