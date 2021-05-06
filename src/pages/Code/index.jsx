@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../../Data/projectsData';
 import ProjectCard from '../../components/ProjectCards';
+
 import './index.scss';
 
 const Code = () => (

@@ -1,6 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
+import html from '../../images/html.png';
+import css from '../../images/css.png';
+import ruby from '../../images/ruby.png';
+import rails from '../../images/rails.png';
+import js from '../../images/js.png';
+import react from '../../images/react.png';
+import wordpress from '../../images/wordpress.png';
+import scss from '../../images/sass.png';
 import './index.scss';
 
 const ProjectCards = ({ project }) => {
@@ -18,28 +26,28 @@ const ProjectCards = ({ project }) => {
     usedLanguages.forEach((tag) => {
       switch (tag) {
         case 'html':
-          languages.push(<img src="/images/html.png" height="45px" alt="icon-html" />);
+          languages.push(<img src={html} height="45px" alt="icon-html" />);
           break;
         case 'css':
-          languages.push(<img src="/images/css.png" height="45px" alt="icon-css" />);
+          languages.push(<img src={css} height="45px" alt="icon-css" />);
           break;
         case 'ruby':
-          languages.push(<img src="/images/ruby.png" height="45px" alt="icon-ruby" />);
+          languages.push(<img src={ruby} height="45px" alt="icon-ruby" />);
           break;
         case 'rails':
-          languages.push(<img src="/images/rails.png" height="45px" alt="icon-rails" />);
+          languages.push(<img src={rails} height="45px" alt="icon-rails" />);
           break;
         case 'js':
-          languages.push(<img src="/images/js.png" height="45px" alt="icon-js" />);
+          languages.push(<img src={js} height="45px" alt="icon-js" />);
           break;
         case 'scss':
-          languages.push(<img src="/images/sass.png" height="45px" alt="icon-sass" />);
+          languages.push(<img src={scss} height="45px" alt="icon-sass" />);
           break;
         case 'wordpress':
-          languages.push(<img src="/images/wordpress.png" height="45px" alt="icon-wordpress" />);
+          languages.push(<img src={wordpress} height="45px" alt="icon-wordpress" />);
           break;
         case 'react':
-          languages.push(<img src="/images/react.png" height="45px" alt="icon-wordpress" />);
+          languages.push(<img src={react} height="45px" alt="icon-wordpress" />);
           break;
         default:
           break;
