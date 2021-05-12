@@ -7,7 +7,7 @@ const Navigationbar = () => (
   <Navbar collapseOnSelect expand="sm" className="NavigationBar">
     <Navbar.Brand id="brand" href="/">Clémentine Fouqué</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+    <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end bg-light">
       <Nav>
         <Nav.Item className="mx-3">
           <Nav.Link href="/code" id="NavLink">Code</Nav.Link>
